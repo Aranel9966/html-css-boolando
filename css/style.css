@@ -19,8 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-    
+  
 }
 
 
@@ -33,14 +32,12 @@ nav{
 }
 
 .left-menu ul li,.right-menu i{
-    /* align-items: center; */
     
     list-style-type: none;
     padding: 0.5em;
 }
 .center-menu img{
 
-    /* align-items: center; */
     height: 40px;
 }
 
@@ -52,7 +49,7 @@ main{
 }
 
 .container{
-    width: 1000px;
+    width: 800px;
     margin: auto;
     
 }
@@ -60,19 +57,20 @@ main{
 .row{
     display: flex;
     gap: 20px;
-    
+    justify-content: center;
 }
 
 
 
 .card{
-    margin-top: 80px;
-    width: 300px;
+    margin-top: 50px;
+    width: 250px;
     position: relative;
 }
+
 .card img{
  
-    width: 300px;
+    width: 250px;
 }
 
 .hearth{
@@ -82,6 +80,30 @@ main{
     font-size: 2em;
     top: 10px;
     right: 0;
+}
+
+.label{
+    background-color: #ff0000;
+    color: white;
+    padding: 0 5px;
+    position: absolute;
+    font-size: 0.8em;
+    bottom: 100px;
+    left: 0; 
+}
+
+.label-2{
+    background-color: #008000;
+    color: white;
+    padding: 0 5px;
+    position: absolute;
+    font-size: 0.8em;
+    bottom: 100px;
+    left: 40px; 
+}
+
+.fix{
+    left: 0px;
 }
 
 .hover-img{
@@ -114,11 +136,13 @@ main{
 footer{
     background-color:#1a1a1a ;
     color: white;
+    padding: 10px;
+    margin-top: 20px;
 
 }
 .footer-left{
-
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
     display: flex;
 }
 
@@ -133,8 +157,8 @@ footer{
     flex-direction: row;
 
 }
-.footer-right{
-    padding: 10px;
+.footer-right li{
+    padding: 5px;
 }
 
 .flex{
