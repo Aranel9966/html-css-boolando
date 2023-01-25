@@ -107,3 +107,37 @@ main{
 .not-price{
     text-decoration-line: line-through;
 }
+
+
+
+/* -----------footer */
+footer{
+    background-color:#1a1a1a ;
+    color: white;
+
+}
+.footer-left{
+
+    align-items: center;
+    display: flex;
+}
+
+.footer-left ul,.footer-right ul {
+    list-style-type: none;
+    
+    display: flex;
+}
+
+.footer-left ul li{
+    list-style-type: none;
+    flex-direction: row;
+
+}
+.footer-right{
+    padding: 10px;
+}
+
+.flex{
+    justify-content: space-between;
+    display: flex;
+}
