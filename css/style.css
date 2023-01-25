@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #ff6900;
+    color: white;
+    
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+}
+
+/* .left-menu{
+
+    display: flex;
+} */
+
+.left-menu,.center-menu,.right-menu,.left-menu ul,.right-menu ul {
+    
+    align-items: center;
+    
+    display: flex;
+}
+
+.left-menu ul li,.right-menu i{
+    /* align-items: center; */
+    
+    list-style-type: none;
+    padding: 0.5em;
+}
+.center-menu img{
+
+    /* align-items: center; */
+    height: 40px;
+}
