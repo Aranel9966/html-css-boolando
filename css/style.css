@@ -22,8 +22,6 @@ nav{
   
 }
 
-
-
 .left-menu,.center-menu,.right-menu,.left-menu ul,.right-menu ul {
     
     align-items: center;
@@ -36,13 +34,13 @@ nav{
     list-style-type: none;
     padding: 0.5em;
 }
+
 .center-menu img{
 
     height: 40px;
 }
 
 /* ------------main------------ */
-
 
 main{
     padding-top: 80px;
@@ -118,9 +116,9 @@ main{
     display: inline-block;
 }
 
-/* .hearth:hover{
+.hearth:hover{
     color: red;
-} */
+}
 
 .price{
     color: #ff0000;
@@ -130,8 +128,6 @@ main{
     text-decoration-line: line-through;
 }
 
-
-
 /* -----------footer */
 footer{
     background-color:#1a1a1a ;
@@ -140,6 +136,7 @@ footer{
     margin-top: 20px;
 
 }
+
 .footer-left{
     flex-direction: column;
     /* align-items: center; */
@@ -157,6 +154,7 @@ footer{
     flex-direction: row;
 
 }
+
 .footer-right li{
     padding: 5px;
 }
